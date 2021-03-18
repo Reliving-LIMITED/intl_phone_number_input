@@ -325,7 +325,7 @@ class _InputWidgetState extends State<InternationalPhoneNumberInput> {
   }
 
   /// Changes Selector Button Country and Validate Change.
-  void onCountryChanged(Country country) {
+  void onCountryChanged(Country? country) {
     setState(() {
       this.country = country;
     });
