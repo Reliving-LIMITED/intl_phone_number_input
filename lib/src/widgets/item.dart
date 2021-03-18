@@ -64,7 +64,7 @@ class _Flag extends StatelessWidget {
                   )
                 : country?.flagUri != null
                     ? Image.asset(
-                        country?.flagUri,
+                        country!.flagUri,
                         width: 32.0,
                         package: 'intl_phone_number_input',
                       )
