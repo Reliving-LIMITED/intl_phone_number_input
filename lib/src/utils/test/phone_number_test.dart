@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:intl_phone_number_input/src/models/country_list.dart';
 import 'package:intl_phone_number_input/src/utils/phone_number/phone_number_util.dart';

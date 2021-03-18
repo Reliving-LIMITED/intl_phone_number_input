@@ -105,7 +105,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
             itemCount: filteredCountries.length,
             itemBuilder: (BuildContext context, int index) {
               Country country = filteredCountries[index];
-              if (country == null) return null;
+              if (country == null) return Container();
               return ListTile(
                 key: Key(TestHelper.countryItemKeyValue(country.alpha2Code)),
                 leading: widget.showFlags!
